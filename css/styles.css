@@ -485,6 +485,15 @@ p + p { margin-top: 0.85rem; }
   transform: translateY(0);
 }
 
+/* ── Print ── */
+@media print {
+  .reveal { opacity: 1 !important; transform: none !important; }
+  .nav-header { position: static; }
+  .hero { min-height: auto; padding: 3rem 0; }
+  .hero-scroll-hint { display: none; }
+  .btn-ghost { border: 1.5px solid #e8e8e4; }
+}
+
 /* ── Mobile ── */
 @media (max-width: 768px) {
   .section { padding: 64px 0; }
