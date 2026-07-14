@@ -334,6 +334,7 @@ p + p { margin-top: 0.85rem; }
 .project-img--2 { background: linear-gradient(135deg, #e0f2fe 0%, #7dd3fc 100%); }
 .project-img--3 { background: linear-gradient(135deg, #fce7f3 0%, #f9a8d4 100%); }
 .project-img--4 { background: linear-gradient(135deg, #dcfce7 0%, #86efac 100%); }
+.project-img--5 { background: linear-gradient(135deg, #fff7ed 0%, #fdba74 100%); }
 
 .project-img-label {
   font-size: 0.78rem;
